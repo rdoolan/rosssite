@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ross Doolan - Browser DevTools for web dev and accessibility</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap" rel="stylesheet">
+  <link href="assets/styles/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="header-bar">
+        <div class="logo">rossdoolan<span>.</span>blog</div>
+        <a href="index.html" class="nav-link">&larr; Back to posts</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="services">
+      <div class="container">
+          <h1>Browser DevTools for web dev and accessibility</h1>
+          <p class="tip">To activate DevTools in your browser, press <strong>F12</strong> on your keyboard.</p>
+          <h2>Lighthouse</h2>
+          <p>Lighthouse is baked into chromium-based browsers and allows you to run a lightweight accessibility audit on any web page.</p>
+          <p>This is a great way to quickly check your page and stay on top of your accessibility standards.</p>
+          <figure>
+            <img src="assets/images/lighthousetool.png" alt="Lighthouse Dev Tool Screenshot">
+          <figcaption>Lighthouse Dev Tool Screenshot</figcaption>
+          </figure>
+
+          <h2>Screenshot options</h2>
+          <p>Using the console in DevTools is a great way to take full page screenshots.</p>
+          <p>To do this open DevTools and <strong>click the 3 dots</strong>, select <strong>Run command</strong> and type <strong>screenshot</strong>. You will be shown the following options. Capture full size allows you to capture the entire page.</p>
+          <figure>
+            <img src="assets/images/screenshottool.png" alt="Screenshot options in Dev Tools">
+            <figcaption>Screenshot options in Dev Tools</figcaption>
+          </figure>
+          <h2>Render emulation</h2>
+          <p>The rendering section in DevTools houses some excellent tools. By default the tab isn't always visible. In the bottom pane of your DevTools you can <strong>click the + (chrome) or 3 dots (edge)</strong> to enable it.</p>
+          <figure>
+            <img src="assets/images/renderingtool.png" alt="Rendering tool in Dev Tools">
+            <figcaption>Rendering tool in Dev Tools</figcaption>
+          </figure>
+          <h3>Print styles</h3>
+          <p>Checking print styles is very situational, if you have a page you know users may wish to print, this is a great option for getting your styles right. Without having to press Print and check everytime you make a change.</p>
+          <p>Setting <strong>Emulate CSS media type</strong> to <strong>print</strong> in the rendering tab of DevTools allows you to see how your page will look when your @media print styles are applied.</p>
+          <h3>Dark mode</h3>
+          <p>DevTools also allows you to emulate dark mode. This is a great way to check your page looks good in dark mode without having to change your system settings.</p>
+          <p>If your CSS has dark mode styles you can use Emulate CSS media feature prefers-color-scheme, alternatively you can use the Emulate automatic dark mode checkbox.</p>
+          <h3>Emulate vision deficiencies</h3>
+          <p>One of my favourite of the rendering tools is the ability to emulate vision deficiencies. This allows you to see how your page looks to users with different vision impairments.</p>
+          <p>Along with blur you can test color blindness and reduced contrast modes.</p>
+          <figure>
+            <img src="assets/images/emulateblur.png" alt="Vision deficiency options in Dev Tools">
+            <figcaption>Vision deficiency options in Dev Tools</figcaption>
+          </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Ross Doolan. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

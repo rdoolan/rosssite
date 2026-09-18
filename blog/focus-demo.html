@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basic Template</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        background-color: #222;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 90vh;
+    }
+    button {
+        padding: 1rem 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        border-radius: 30px;
+        margin: 1rem;
+        cursor: pointer;
+    }
+    .button1:focus {
+        background: red;
+        cursor: pointer;
+        outline: 2px solid white;
+    }
+    .button2:hover {
+        cursor: pointer;
+    }
+    .button2:focus-visible {
+        background: greenyellow;
+        cursor: pointer;
+        outline: 2px solid white;
+    }
+</style>
+<body>
+    <button class="button1">I use <strong>:focus</strong></button>
+    <button class="button2">I use <strong>:focus-visible</strong></button>
+
+</body>
+</html>
